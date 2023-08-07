@@ -1,0 +1,38 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.slide-content {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  min-height: 100px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ... previous styles ... */
+
+/* Add some space between the slider dots and the slides */
+.slick-dots {
+  bottom: -30px;
+}
+
+/* Center the content within each slide */
+.slide-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;  
+}
+
